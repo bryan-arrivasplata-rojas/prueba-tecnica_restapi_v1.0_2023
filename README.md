@@ -27,8 +27,9 @@ Para hacer uso de products podemos realizarlo por 4 consultas - CRUD (Para hacer
 
 * La primera nos permite obtener todos los productos de la Base de Datos: http://127.0.0.1:3000/products
 * La segunda nos permite obtener un producto especifico de la Base de Datos: http://127.0.0.1:3000/products/1
-* > Antes de continuar con la tercera y cuarta configuraremos el Postman, para la tercera y cuarta debera seleccionar POST / PUT segun corresponda y en Headers incluir lo siguiente: KEY= Accepts y VALUE = application/json
-  >
+
+> Antes de continuar con la tercera y cuarta configuraremos el Postman, para la tercera y cuarta debera seleccionar POST / PUT segun corresponda y en Headers incluir lo siguiente: KEY= Accepts y VALUE = application/json
+
 * La tercera nos permite insertar un producto en la Base de Datos :
   * Enlace (POST): http://127.0.0.1:3000/products
   * Body - raw insertar lo siguiente:
